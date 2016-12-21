@@ -88,20 +88,20 @@
   <form>
     <p>
       <label for="año"><strong>Año:</strong></label>
-      <input type="number" name="año" id="año" placeholder="2016" max="2017" min="1987">
+      <input type="number" name="año" id="año" placeholder="2016" max="2017" min="1987" required>
     </p>
     <p>
       <label for="institucion"><strong>Institución:</strong></label>
-      <input type="text" name="institucion" id="institucion" placeholder="Ej.: INTEC">
+      <input type="text" name="institucion" id="institucion" placeholder="Ej.: INTEC" required>
     </p>
     <p>
       <label for="lugar"><strong>Lugar:</strong></label>
-      <input type="text" name="lugar" id="lugar" placeholder="Ej.: Santo Domingo">
+      <input type="text" name="lugar" id="lugar" placeholder="Ej.: Santo Domingo" required>
     </p>
     <p>
       <label for="culmino"><strong>¿Culminó?</strong></label>
-      <input type="radio" name="culmino" id="culmino">Sí
-      <input type="radio" name="culmino" id="culmino">  No
+      <input type="radio" name="culmino" id="culmino" required>Sí
+      <input type="radio" name="culmino" id="culmino" required>  No
     </p>
     <p>
       <input type="submit" name="enviar" id="enviar" value="Enviar">
